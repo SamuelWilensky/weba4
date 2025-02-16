@@ -1,0 +1,11 @@
+{
+  "name": "a4concurrent",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run start\""
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
