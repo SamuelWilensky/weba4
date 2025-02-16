@@ -4,6 +4,8 @@ import './App.css'
 
 
 function App() {
+    console.log("sign in page");
+
   //const [count, setCount] = useState(0)
     const LogIn = ()=>{
         window.location = "/#/boardgames";

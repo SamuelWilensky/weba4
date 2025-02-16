@@ -6,6 +6,7 @@ import ResultsTable from "./ResultsTable.jsx";
 
 
 function App() {
+    console.log("form page");
     let appdata = [];
 
     let defaultUsername = "guest";
