@@ -1,0 +1,23 @@
+{
+  "name": "a4backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mime": "^4.0.6",
+    "mongodb": "^6.13.0",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "server.js",
+  "author": "Samuel Wilensky",
+  "license": "ISC"
+}
